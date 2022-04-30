@@ -1,0 +1,1 @@
+# gcp-cloudbuild-substitution-variables-hack.sh
