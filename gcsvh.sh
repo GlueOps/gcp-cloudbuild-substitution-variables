@@ -13,3 +13,6 @@ sed -i '/^  SHLVL:/d' app.yaml
 sed -i '/^  PATH:/d' app.yaml 
 sed -i '/^  XTERM:/d' app.yaml
 sed -i '/^  LS_COLORS:/d' app.yaml
+
+
+cat app.yaml
