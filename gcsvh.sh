@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while IFS='=' read -r -d '' n v; do
-    printf '  %s: "%s"\n' "$n" "$v" >> app.yaml
+    printf '  %q: "%q"\n' "$n" "$v" >> app.yaml
 done < <(env -0)
 
 sed -i '/^  HOSTNAME:/d' app.yaml 
